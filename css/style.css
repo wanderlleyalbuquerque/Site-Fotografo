@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body{
+    font-size: 1rem;
+    background-color: rgb(165, 165, 165);
+}
+.container{
+    width: 1280px;
+    margin: auto;
+}   
+#area-menu{
+    border: 1px solid black;
+    margin: 0 350px 119px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+.area-menu{
+    font-weight: 300;
+    color: #000;
+    text-decoration: none;
+    
+
+}
+#area-cabeçalho{
+    padding: 0.9rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+#logo, #area-menu{
+    padding: 0.7rem;                                                                                                                                                                                                                                                                                                                
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fff;
+}
+#logo{
+    display: block;
+    gap: 30px;
+    margin: 40px auto;
+}
+footer h4{
+    text-align: center;
+    margin-top: 100px;
+}
